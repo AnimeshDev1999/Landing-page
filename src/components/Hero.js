@@ -4,7 +4,7 @@ import ico3 from "../images/05.png";
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-b from-[#f2ebff] to-[#d5bfff] flex justify-center items-center gap-5 flex-col text-center px-5 py-28">
+    <div className="bg-gradient-to-b  from-[#f2ebff] to-[#d5bfff] flex justify-center items-center gap-5 flex-col text-center px-5 py-28">
       <h1 className="text-4xl font-bold relative">
         Unlocking the Power of Social Media
         <img src={ico1} alt="" className="decor1" />
