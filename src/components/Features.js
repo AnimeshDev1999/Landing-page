@@ -4,7 +4,7 @@ const Features = () => {
   return (
     <div className="feature-div flex flex-col gap-14 px-5 py-16">
       <div className="flex flex-col justify-center items-center gap-5">
-        <h2 className="text-white text-2xl font-semibold">
+        <h2 className="text-white text-3xl font-semibold">
           Your Social Media Journey Starts Here
         </h2>
         <p className="text-[#ccc]">
