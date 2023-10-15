@@ -30,6 +30,26 @@
     background-size: cover;
     background-position: center;
   }
+  .testi-div {
+    background-image: url(./images/23.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .cta-div {
+    background-image: linear-gradient(
+        to right bottom,
+        rgb(36, 10, 87, 0.6),
+        rgb(36, 10, 87, 0.6)
+      ),
+      url(./images/24.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .footer-div {
+    background-image: url(./images/27.png);
+    background-size: cover;
+    background-position: top;
+  }
   .img-1 {
     background-image: linear-gradient(
         to bottom,
@@ -84,5 +104,11 @@
     height: 4.5rem;
     opacity: 0.8;
     transform: rotate(-10deg);
+  }
+  .tbox-v1 {
+    @apply flex flex-col gap-5 bg-purple-100 p-3 rounded-md;
+  }
+  .tbox-v2 {
+    @apply flex flex-col gap-5 bg-purple-200 p-3 rounded-md;
   }
 }
